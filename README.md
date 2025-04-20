@@ -93,27 +93,29 @@ npm start
 
 ## 📘 API Endpoints
 
+Base URL: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api
+
 ### 📹 YouTube Video
 
-GET (Get video details (title, stats)): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId
-PUT (Update video title/description): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId
+- **POST** *(Get video details (title, stats))*: `/youtube/video/:videoId`
+- **PUT** *(Update video title/description)*: `/youtube/video/:videoId/metadata`
 
 ---
 
 ### 💬 Comments
 
-GET (List all comments ): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId/comments
-POST (Post a new comment): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId/comment
-POST (Post a reply to a comment): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/comment/:commentId/reply
-DELETE (Delete a comment or reply): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/comment/:commentId
+- **POST** *(List all comments)*: `/youtube/video/:videoId/comments`
+- **POST** *(Post a new comment)*: `/youtube/video/:videoId/comment`
+- **POST** *(Post a reply to a comment)*: `/youtube/comment/:commentId/reply`
+- **DELETE** *(Delete a comment or reply)*: `/youtube/comment/:commentId`
 
 ---
 
 ### 📝 Notes
 
-GET (Get all notes for a video): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes/:videoId
-POST (Add a note for a video): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes
-DELETE (Delete a note by ID): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes/:id
+- **GET** *(Get all notes for a video)*: `/notes/:videoId`
+- **POST** *(Add a note for a video)*: `/notes`
+- **DELETE** *(Delete a note by ID)*: `/notes/:id`
 
 ---
 
