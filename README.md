@@ -9,8 +9,8 @@ A full-stack dashboard for managing YouTube video metadata, comments, replies, a
 
 ## Deployment
 
-- **Frontend:** **Vercel** https://vercel.com
-- **Backend:** **Choreo** https://choreo.dev
+- **Frontend:** **Vercel** - https://vercel.com
+- **Backend:** **Choreo** - https://choreo.dev
 
 Built using:
 
