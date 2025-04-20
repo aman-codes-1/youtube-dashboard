@@ -2,6 +2,11 @@
 
 A full-stack dashboard for managing YouTube video metadata, comments, replies, and personal notes — powered by the YouTube Data API v3.
 
+## 🔗 Live URLs
+
+- **Frontend:** https://youtube-dashboard-mauve.vercel.app
+- **Backend API:** https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0
+
 Built using:
 
 - ⚛️ React (Frontend)
@@ -87,38 +92,32 @@ npm start
 
 | Method | Endpoint              | Description            |
 |--------|-----------------------|------------------------|
-| POST   | `/api/auth/google`    | Login using Google     |
-| POST   | `/api/auth/logout`    | Logout current user    |
+| POST :`https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/auth/google`    | Login using Google     |
+| POST   | `https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/auth/logout`    | Logout current user    |
 
 ---
 
 ### 📹 YouTube Video
 
-| Method | Endpoint                            | Description                         |
-|--------|-------------------------------------|-------------------------------------|
-| GET    | `/api/youtube/video/:videoId`       | Get video details (title, stats)    |
-| PUT    | `/api/youtube/video/:videoId`       | Update video title/description      |
-| GET    | `/api/youtube/video/:videoId/comments` | List all top-level comments         |
-| POST   | `/api/youtube/video/:videoId/comment`  | Post a new comment                  |
+GET (Get video details (title, stats)): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId
+PUT (Update video title/description): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId
 
 ---
 
 ### 💬 Comments
 
-| Method | Endpoint                                  | Description                   |
-|--------|-------------------------------------------|-------------------------------|
-| POST   | `/api/youtube/comment/:commentId/reply`   | Post a reply to a comment     |
-| DELETE | `/api/youtube/comment/:commentId`         | Delete a comment or reply     |
+GET (List all comments ): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId/comments
+POST (Post a new comment): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId/comment
+POST (Post a reply to a comment): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/comment/:commentId/reply
+DELETE (Delete a comment or reply): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/comment/:commentId
 
 ---
 
 ### 📝 Notes
 
-| Method | Endpoint                 | Description                  |
-|--------|--------------------------|------------------------------|
-| GET    | `/api/notes/:videoId`    | Get all notes for a video    |
-| POST   | `/api/notes`             | Add a note for a video       |
-| DELETE | `/api/notes/:id`         | Delete a note by ID          |
+GET (Get all notes for a video): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes/:videoId
+POST (Add a note for a video): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes
+DELETE (Delete a note by ID): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes/:id
 
 ---
 
