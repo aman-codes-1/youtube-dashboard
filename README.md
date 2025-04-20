@@ -12,7 +12,7 @@ A full-stack dashboard for managing YouTube video metadata, comments, replies, a
 - **Frontend:** **Vercel** - https://vercel.com
 - **Backend:** **Choreo** - https://choreo.dev
 
-Built using:
+## Built using
 
 - ⚛️ React (Frontend)
 - 🧠 Node.js + Express (Backend)
