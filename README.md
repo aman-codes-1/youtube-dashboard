@@ -95,8 +95,8 @@ npm start
 
 ### 📹 YouTube Video
 
-GET (Get video details (title, stats)): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId
-PUT (Update video title/description): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId
+- **GET** *(Get video details (title, stats))*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId
+- **PUT** *(Update video title/description)*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId
 
 ---
 
