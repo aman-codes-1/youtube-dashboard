@@ -102,18 +102,18 @@ npm start
 
 ### 💬 Comments
 
-GET (List all comments ): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId/comments
-POST (Post a new comment): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId/comment
-POST (Post a reply to a comment): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/comment/:commentId/reply
-DELETE (Delete a comment or reply): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/comment/:commentId
+- **GET** *(List all comments)*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId/comments
+- **POST** *(Post a new comment)*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/video/:videoId/comment
+- **POST** *(Post a reply to a comment)*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/comment/:commentId/reply
+- **DELETE** *(Delete a comment or reply)*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/youtube/comment/:commentId
 
 ---
 
 ### 📝 Notes
 
-GET (Get all notes for a video): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes/:videoId
-POST (Add a note for a video): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes
-DELETE (Delete a note by ID): https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes/:id
+- **GET** *(Get all notes for a video)*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes/:videoId
+- **POST** *(Add a note for a video)*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes
+- **DELETE** *(Delete a note by ID)*: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/notes/:id
 
 ---
 
