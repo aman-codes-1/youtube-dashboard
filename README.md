@@ -97,7 +97,7 @@ Base URL: https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.chor
 
 ### 📹 YouTube Video
 
-- **GET** *(Get video details (title, stats))*: `/youtube/video/:videoId`
+- **POST** *(Get video details (title, stats))*: `/youtube/video/:videoId`
 - **PUT** *(Update video title/description)*: `/youtube/video/:videoId/metadata`
 
 ---

@@ -7,7 +7,7 @@ const api = axios.create({
 export const getVideo = (videoId, tokens) =>
   api.post(`/youtube/video/${videoId}`, { tokens });
 export const updateMeta = (videoId, data, tokens) =>
-  api.post(`/youtube/video/${videoId}/metadata`, { ...data, tokens });
+  api.put(`/youtube/video/${videoId}/metadata`, { ...data, tokens });
 export const getComments = (videoId, tokens) =>
   api.post(`/youtube/video/${videoId}/comments`, { tokens });
 export const postComment = (videoId, text, tokens) =>
