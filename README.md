@@ -5,7 +5,12 @@ A full-stack dashboard for managing YouTube video metadata, comments, replies, a
 ## 🔗 Live URLs
 
 - **Frontend:** https://youtube-dashboard-mauve.vercel.app
-- **Backend API:** https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0
+- **Backend:** https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0
+
+## Deployment
+
+- **Frontend:** **Vercel** https://vercel.com
+- **Backend:** **Choreo** https://choreo.dev
 
 Built using:
 
@@ -87,15 +92,6 @@ npm start
 ---
 
 ## 📘 API Endpoints
-
-### 🔐 Auth
-
-| Method | Endpoint              | Description            |
-|--------|-----------------------|------------------------|
-| POST :`https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/auth/google`    | Login using Google     |
-| POST   | `https://457ff6c3-a744-4089-be94-97eaef8c3d72-dev.e1-us-east-azure.choreoapis.dev/default/youtube/v1.0/api/auth/logout`    | Logout current user    |
-
----
 
 ### 📹 YouTube Video
 
